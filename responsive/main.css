@@ -739,6 +739,7 @@
     width: 100%;
     margin: auto;
     height: auto;
+    background: url(../image/manzara.jpg) fixed no-repeat center center;
   }
   body .phone {
     width: 100%;

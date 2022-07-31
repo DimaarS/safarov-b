@@ -548,8 +548,8 @@
     margin-top: 40px;
   }
   body .header .info .img section .fab {
-    color: #fff;
-    font-size: 30px;
+    color: #fdfdfd;
+    font-size: 50px;
     -webkit-transition: all .6s linear;
     transition: all .6s linear;
   }
@@ -971,8 +971,8 @@
     margin-top: 40px;
   }
   body .header .info .img section .fab {
-    color: #fff;
-    font-size: 40px;
+    color: #ea0707;
+    font-size: 60px;
   }
   body .header .info .img section .fab:hover {
     -webkit-transform: scale(1.05);

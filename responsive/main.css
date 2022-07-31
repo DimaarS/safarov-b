@@ -188,8 +188,8 @@
     border-radius: 50%;
     -webkit-filter: drop-shadow(0 0 10px #fff) sepia(20%);
             filter: drop-shadow(0 0 10px #fff) sepia(20%);
-    background: url(../image/20220402_220146.jpg) no-repeat right top;
-    background-size: 150%;
+    background: url(../image/20220402_220146.jpg) no-repeat right center;
+    background-size: 120%;
   }
   body .header .info .img .card:hover {
     background-size: 200%;
@@ -525,7 +525,7 @@
     border-radius: 50%;
     -webkit-filter: drop-shadow(0 0 10px #fff);
             filter: drop-shadow(0 0 10px #fff);
-    background: url(../image/sf.jpg) no-repeat right top;
+    background: url(../image/20220402_220146.jpg) no-repeat right center;
     background-size: 150%;
   }
   body .header .info .img .card:hover {
@@ -947,8 +947,8 @@
     border-radius: 50%;
     -webkit-filter: drop-shadow(0 0 20px #fff) sepia(40%);
             filter: drop-shadow(0 0 20px #fff) sepia(40%);
-    background: url(../image/20220402_220146.jpg) no-repeat right top;
-    background-size: 150%;
+    background: url(../image/20220402_220146.jpg) no-repeat right center;
+    background-size: 120%;
   }
   body .header .info .img .card:hover {
     background-size: 200%;

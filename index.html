@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>About Me</title>
+    <!-- Title icon  -->
+    <link rel="shortcut icon" href="/image/men.jpg" >
+    <!-- CSS file -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Phone navbar  -->
+    <link rel="stylesheet" href="./responsive/main.css">
+    
+     <!-- Fontawesome icons  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Carousel file   -->
+    <link rel="stylesheet" href="owl-css/owl.carousel.min.css">
+    <link rel="stylesheet" href="owl-css/owl.theme.default.min.css">
+</head>
+<body onload="yoz()"  >
+    <!-- for phones  -->
+    <div class="phone">
+        <i class="fa-solid fa-xmark" id="close" style="color:#fff;"></i>
+        <ul>
+            <li><a href="#header">Home</a></li>
+            <li><a href="#aboutme">About</a></li>
+            <li><a href="#footer">Contact</a></li>
+            <li><a href="#">Iknow</a></li>
+        </ul>
+    </div>
+    <!-- Header start -->
+    <div class="header" id="header">
+        <div class="navbar_menu">
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#aboutme">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#">Iknow</a></li>
+            </ul>
+            <i class="fa fa-bars" id="bars"></i>
+        </div>
+
+        <div class="info">
+            <div class="type">
+                <p id="demo"></p>
+            </div>
+            <div class="img">
+                <div class="card">
+                </div>
+                <section>
+                    <!-- <a href="https://github.com/DimaarS"><i class="fab fa-github"></i></a> -->
+                    <!-- <a href="https://www.youtube.com/channel/UCMl2ZBa81hKMosNU2cbYrmA"><i class="fab fa-youtube"></i></a> -->
+                    <!-- <a href="https://t.me/ahmedovdan"><i class="fab fa-telegram"></i></a> -->
+                </section>
+            </div>
+
+        </div>
+    </div>
+     <!-- Aboutme start  -->
+    <div class="about_me" id="aboutme">
+        <h2>About Me </h2>
+        <br>
+        
+        <div class="owl-carousel owl-theme">
+            <div class="card-item">
+                <h2>Who am I ?</h2>
+
+                <span>
+                    I`m 20 years old . My fullname is Safarov Diyorbek
+                    I`m student and I  currently studying at the  SamDU . 
+                    I`m currently increasing my knowladge and experience in programming.
+                </span>
+
+            </div>
+            <!-- <div class="card-item">
+
+                <h2>Frontend</h2>
+                <p><img src="image/html.png" alt=""> HTML5</p>
+                <p> <img src="image/css.png" alt="">CSS3</p>
+                <p><img src="image/sass.png" alt="">SASS</p>
+                <p><img src="image/Bootstrap.png" alt="">Bootstrap</p>
+                <p> <img src="image/js.png" alt="">JavaScript</p>
+                <p><img src="image/jquery.webp" alt="">JQuery</p>
+                <p> <img src="image/reactjs1.png" alt="">ReactJS</p>
+
+
+                
+            </div> -->
+            <!-- <div class="card-item loyiha">
+                    <a href="https://ahmedovworks2.netlify.app">Project #1</a>
+                    <a href="https://ahmedovworks.netlify.app">Project #2</a>
+            </div> -->
+        </div>
+    </div>
+    <!-- Foter start  -->
+    <div class="footer" id="footer">
+        
+        <div class="card-footer">
+
+            <section>
+                <h3> <i class="fa-solid fa-phone"></i> Number</h3>
+                <span>+998906066616</span>
+            </section>
+            <section>
+                <h3><i class="fa-solid fa-location-crosshairs"></i>Location</h3>
+                <span>Samarqand</span>
+            </section>
+            <section>
+                <h3><i class="fa-solid fa-user"></i> Name</h3>
+                <span>Diyorbek</span>
+            </section>
+
+        </div>
+        <form action="" onsubmit=" return sendtelegram()">
+            <input type="text" name="name" id="name" placeholder="Ismingiz" required>
+            <input type="email" name="email" id="email" placeholder="Email manzilingiz" required> <br> <br>
+            <textarea name="message" id="message" cols="25" rows="50" placeholder="Murojot uchun" required></textarea> <br> <br>
+            <input type="submit" value="Send" id="btn">
+        </form>
+    </div>
+    <script src="Jquery.js/index.js"></script>
+    <script src="JavaScript/owl.carousel.min.js"></script>
+    <script src="JavaScript/index.js"></script>
+</body>
+</html>

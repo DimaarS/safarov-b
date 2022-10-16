@@ -63,9 +63,9 @@ $('#btn_send').click(function(){
 
 
 //bot token
-var telegram_bot_id = "5286309980:AAHhS90unLpyvgncizOmCEJCdRrtfaeuj7Q"; // token'ni o'rniga Siz yaratgan Bot tokenini yozing
+var telegram_bot_id = "5678497589:AAESngeCttrqAnD1BCE6E_OL1I_KISnCgkA"; // token'ni o'rniga Siz yaratgan Bot tokenini yozing
 //chat id
-var chat_id = 1497284051; // 1111'ni o'rniga habar borishi kerak bo'lgan joyni ID'sini yozing (Batafsil videoda)
+var chat_id = 5204258343; // 1111'ni o'rniga habar borishi kerak bo'lgan joyni ID'sini yozing (Batafsil videoda)
 var u_name, email, message;
 var ready = function() {
     u_name = document.getElementById("name").value;
